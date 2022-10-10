@@ -17,9 +17,9 @@ Other data are the customer's age, gender and trip duration. Based on this data,
 First, the data set is prepared and visualised to find correlations and remove outliers. 
 Then, different models are generated and compared to evaluate their performance.
 
-Data can be found [here.](resources/)
-Analytics of the dataset can be found [here.](src/analytics/)
-Models can be found [here.](src/model/)
+Data can be found [here.](resources/)<br>
+Analytics of the dataset can be found [here.](src/analytics/)<br>
+Models can be found [here.](src/model/)<br>
 
 ## License
 
