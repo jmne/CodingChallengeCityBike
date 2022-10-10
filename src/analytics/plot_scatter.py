@@ -23,7 +23,7 @@ def plot_with_density(df):
     Plots a 2D dataframe with a density map.
 
     Args:
-        df: write your description
+        df: dataframe of data
     """
     # create figure and axis objects with subplots()
     fig, axs = plt.subplots(round(len(df.columns) / 2), 2)
@@ -61,7 +61,7 @@ def plot(df):
     Plots the dataframe df.
 
     Args:
-        df: write your description
+        df: dataframe of data
     """
     # create figure and axis objects with subplots()
     fig, axs = plt.subplots(round(len(df.columns) / 2), 2)
