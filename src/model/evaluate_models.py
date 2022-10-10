@@ -16,7 +16,7 @@ def model(df):
     Run the processing models on the data.
 
     Args:
-        df: write your description
+        df: dataframe of data
     """
     # split data into train and test
     x = df[["birth year", "gender", "tripduration"]]
@@ -117,8 +117,8 @@ def evaluate(test, prediction):
     Scores and displays the confusion matrix.
 
     Args:
-        test: write your description
-        prediction: write your description
+        test: test data
+        prediction: predicted data
     """
     # calculate metrics
     print("Accuracy:", round(accuracy_score(prediction, test), 4) * 100, "%")

@@ -8,9 +8,9 @@ def prep(file="", remove_outliers=False, selectors=None):
     Read CSV file and prepare dataframe for analysis.
 
     Args:
-        file: write your description
-        remove_outliers: write your description
-        selectors: write your description
+        file: CSV file to read
+        remove_outliers: remove outliers from data
+        selectors: list of selectors to apply to data
     """
     df = pd.read_csv(file)
     if selectors is not None:
@@ -31,7 +31,7 @@ def handle_outliers(df):
     Filter out outliers in a DataFrame.
 
     Args:
-        df: write your description
+        df: dataframe of data
     """
     for column in df[["tripduration", "birth year"]].columns:
         q1 = df[column].quantile(0.05)

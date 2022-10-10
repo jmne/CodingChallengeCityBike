@@ -12,7 +12,7 @@ def train_model(df):
     Trains a decision tree classifier on the given dataframe.
 
     Args:
-        df: write your description
+        df: dataframe of data
     """
     start_time = time.time()
     print("Starting to train Decision Tree model...")
@@ -39,8 +39,8 @@ class DecisionTreeModel:
         Initializes the model with the given dataframe
 
         Args:
-            self: write your description
-            df: write your description
+            self: self reference
+            df: dataframe of data
         """
         self.df = df
         self.model = train_model(df)
@@ -51,8 +51,8 @@ class DecisionTreeModel:
         Predicts the class for the given dataframe.
 
         Args:
-            self: write your description
-            df: write your description
+            self: self reference
+            df: dataframe of data
         """
         start_time = time.time()
         pre = self.model.predict(df[["birth year", "gender", "tripduration"]])

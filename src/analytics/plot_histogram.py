@@ -9,7 +9,7 @@ def plot(df):
     Plots histogram of a DataFrame.
 
     Args:
-        df: write your description
+        df: dataframe of data
     """
     plt.rcParams["figure.figsize"] = (10, 10)
     hm = df.hist()

@@ -10,7 +10,7 @@ def plot(df):
     Plot correlation matrix.
 
     Args:
-        df: write your description
+        df: dataframe of data
     """
     # print correlation matrix
     corr_matrix = df.corr().round(3)
