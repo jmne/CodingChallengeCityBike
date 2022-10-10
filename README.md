@@ -23,7 +23,7 @@ Models can be found [here.](src/model/)<br>
 
 ## License
 
-[GNU General Public License v2.0](https://github.com/jancodet/CodingChallengeCityBike/blob/main/LICENSE)
+[GNU General Public License v2.0](https://github.com/jmne/CodingChallengeCityBike/blob/main/LICENSE)
 
 ## :)
 
