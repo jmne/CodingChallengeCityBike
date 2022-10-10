@@ -6,6 +6,12 @@ import seaborn as sn
 
 
 def plot(df):
+    """
+    Plot correlation matrix.
+
+    Args:
+        df: write your description
+    """
     # print correlation matrix
     corr_matrix = df.corr().round(3)
 

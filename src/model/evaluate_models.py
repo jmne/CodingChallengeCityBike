@@ -12,6 +12,12 @@ from sklearn.model_selection import train_test_split
 
 
 def model(df):
+    """
+    Run the processing models on the data.
+
+    Args:
+        df: write your description
+    """
     # split data into train and test
     x = df[["birth year", "gender", "tripduration"]]
     y = df["usertype"]
@@ -107,6 +113,13 @@ def model(df):
 
 
 def evaluate(test, prediction):
+    """
+    Scores and displays the confusion matrix.
+
+    Args:
+        test: write your description
+        prediction: write your description
+    """
     # calculate metrics
     print("Accuracy:", round(accuracy_score(prediction, test), 4) * 100, "%")
     print("Precision:", round(precision_score(prediction, test), 4) * 100, "%")
