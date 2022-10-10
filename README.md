@@ -14,7 +14,7 @@
 The idea behind this project is to build a predictive model based on the given data from CityBike, which makes predictions about the customer's subscription model. There are customers with a 3-day pass and customers with an annual subscription.
 Other data are the customer's age, gender and trip duration. Based on this data, an attempt is made to infer the customer's subscription status. 
 
-First, the data set is prepared and visualised to find correlations and remove outliers. 
+First, the data set is prepared and visualised to find correlations and remove outliers.<br>
 Then, different models are generated and compared to evaluate their performance.
 
 Data can be found [here.](resources/)<br>
