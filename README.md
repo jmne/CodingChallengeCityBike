@@ -17,6 +17,10 @@ Other data are the customer's age, gender and trip duration. Based on this data,
 First, the data set is prepared and visualised to find correlations and remove outliers. 
 Then, different models are generated and compared to evaluate their performance.
 
+Data can be found [here.](src/resources/)
+Analytics of the dataset can be found [here.](src/analytics/)
+Models can be found [here.](src/models/)
+
 ## License
 
 [GNU General Public License v2.0](https://github.com/jancodet/CodingChallengeCityBike/blob/main/LICENSE)
