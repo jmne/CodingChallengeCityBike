@@ -8,6 +8,12 @@ from sklearn.tree import DecisionTreeClassifier
 
 # train model
 def train_model(df):
+    """
+    Trains a decision tree classifier on the given dataframe.
+
+    Args:
+        df: write your description
+    """
     start_time = time.time()
     print("Starting to train Decision Tree model...")
 
@@ -29,11 +35,25 @@ def train_model(df):
 
 class DecisionTreeModel:
     def __init__(self, df):
+        """
+        Initializes the model with the given dataframe
+
+        Args:
+            self: write your description
+            df: write your description
+        """
         self.df = df
         self.model = train_model(df)
 
     # predict values
     def predict(self, df):
+        """
+        Predicts the class for the given dataframe.
+
+        Args:
+            self: write your description
+            df: write your description
+        """
         start_time = time.time()
         pre = self.model.predict(df[["birth year", "gender", "tripduration"]])
         print("Time to predict data:", round(time.time() - start_time, 2), "seconds")

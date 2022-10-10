@@ -5,6 +5,12 @@ from matplotlib import pyplot as plt
 
 # plot boxplot
 def plot(df):
+    """
+    Plots a DataFrame.
+
+    Args:
+        df: write your description
+    """
     # create figure and axis objects with subplots()
     fig, axs = plt.subplots(round(len(df.columns) / 2), 2)
     fig.suptitle('Boxplot of Variables', fontsize=20)

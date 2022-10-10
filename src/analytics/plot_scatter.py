@@ -19,6 +19,12 @@ white_viridis = LinearSegmentedColormap.from_list('white_viridis', [
 
 # plot hierarchical cluster (+density)
 def plot_with_density(df):
+    """
+    Plots a 2D dataframe with a density map.
+
+    Args:
+        df: write your description
+    """
     # create figure and axis objects with subplots()
     fig, axs = plt.subplots(round(len(df.columns) / 2), 2)
     fig.suptitle('Scatter of Variables (With density)', fontsize=20)
@@ -51,6 +57,12 @@ def plot_with_density(df):
 
 # plot hierarchical cluster
 def plot(df):
+    """
+    Plots the dataframe df.
+
+    Args:
+        df: write your description
+    """
     # create figure and axis objects with subplots()
     fig, axs = plt.subplots(round(len(df.columns) / 2), 2)
     fig.suptitle('Scatter of Variables', fontsize=20)

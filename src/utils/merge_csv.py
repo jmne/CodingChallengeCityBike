@@ -11,6 +11,11 @@ global csv_files
 
 
 def merge():
+    """
+    Merges all the files in the folder into a single pandas DataFrame.
+
+    Args:
+    """
     # use glob to get all the csv files
     # in the folder
     path = "../resources"

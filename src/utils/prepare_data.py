@@ -4,6 +4,14 @@ import pandas as pd
 
 
 def prep(file="", remove_outliers=False, selectors=None):
+    """
+    Read CSV file and prepare dataframe for analysis.
+
+    Args:
+        file: write your description
+        remove_outliers: write your description
+        selectors: write your description
+    """
     df = pd.read_csv(file)
     if selectors is not None:
         if len(selectors) > 0:
@@ -19,6 +27,12 @@ def prep(file="", remove_outliers=False, selectors=None):
 
 
 def handle_outliers(df):
+    """
+    Filter out outliers in a DataFrame.
+
+    Args:
+        df: write your description
+    """
     for column in df[["tripduration", "birth year"]].columns:
         q1 = df[column].quantile(0.05)
         q3 = df[column].quantile(0.95)
