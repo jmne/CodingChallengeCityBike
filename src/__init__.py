@@ -59,3 +59,5 @@ if __name__ == '__main__':
 
     # print execution time
     print("\n--- calculated %s minutes ---" % round((time.time() - start_time) / 60, 2))
+
+    exit(0)
