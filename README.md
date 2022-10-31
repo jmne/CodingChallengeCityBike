@@ -1,6 +1,5 @@
 # Coding Challenge with CityBike Dataset
 
-[![](https://img.shields.io/github/v/release/jmne/CodingChallengeCityBike?style=flat-square)](https://github.com/jmne/CodingChallengeCityBike/releases)
 [![](https://img.shields.io/github/issues/jmne/CodingChallengeCityBike?style=flat-square)](https://github.com/jmne/CodingChallengeCityBike/issues)
 [![](https://img.shields.io/github/issues-pr/jmne/CodingChallengeCityBike?style=flat-square)](https://github.com/jmne/CodingChallengeCityBike/pulls)
 [![](https://img.shields.io/github/license/jmne/CodingChallengeCityBike?style=flat-square)](https://github.com/jmne/CodingChallengeCityBike/blob/main/LICENSE)
