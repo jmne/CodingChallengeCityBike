@@ -27,7 +27,5 @@ Models can be found [here.](src/model/)<br>
 
 [GNU General Public License v2.0](https://github.com/jmne/CodingChallengeCityBike/blob/main/LICENSE)
 
-## :)
-
 [![Readme Card Statistics](https://github-readme-stats.vercel.app/api/pin/?username=jmne&repo=CodingChallengeCityBike&theme=dark)](https://github.com/jmne/CodingChallengeCityBike/)
 
